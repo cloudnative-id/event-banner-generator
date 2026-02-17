@@ -1,0 +1,49 @@
+# Image dimensions
+width: 700
+height: 700
+
+# Background configuration
+background:
+  gradient:
+    start: '#C2185B'  # Pink
+    end: '#313178'    # Purple
+
+# Output formats
+output_formats:
+  - webp
+  - jpg
+
+# Event title
+title:
+  text: "--- Call For Speaker ---"
+  color: '#FFFFFF'
+  size: 50
+  y_position: 200
+
+# Event details (date and time)
+details:
+  text: "Online Meetup | February 26, 2026"
+  color: '#FFFFFF'
+  size: 32
+  y_position: 330
+
+# Location
+location:
+  text: "s.id/cloudnative-speaker | cloudnative.id"
+  color: '#FFFFFF'
+  size: 28
+  y_position: 390
+
+# Speakers configuration
+speakers_y_start: 450
+speaker_spacing: 250
+
+# Footer (Organized By)
+footer:
+  text: "Organized By"
+  color: '#FFFFFF'
+  size: 30
+  z_position: 10
+  y_position: 500
+  logo: assets/logos/cncf-indonesia-logo.webp
+  logo_size: [80, 80]
